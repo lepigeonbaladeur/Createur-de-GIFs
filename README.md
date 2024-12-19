@@ -59,7 +59,7 @@ To install this project, follow these steps:
 Ouvrez un terminal de commande et tapez "python -m ensurepip --upgrade"
 
 3.  Installer Flask
-Pour installer "Flask", tapez la commande "python -m flask --version"
+Pour installer "Flask", tapez la commande "pip install Flask"
 
 4. Fermer le terminal
 
