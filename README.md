@@ -49,7 +49,7 @@ Un simple créateur de GIF dans ton navigateur en local avec plusieurs résoluti
 
 ## ️Setup
 
-### Installation
+### Installation sur Windows
 
 To install this project, follow these steps:
 
