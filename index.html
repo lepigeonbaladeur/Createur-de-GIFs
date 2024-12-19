@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Créateur de GIFs</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Créateur de GIFs</h1>
+        
+        <div class="upload-section">
+            <div id="drop-zone" class="drop-zone">
+                <p>Glissez vos images ici ou</p>
+                <input type="file" id="file-input" multiple accept="image/*">
+                <label for="file-input" class="upload-button">Sélectionnez des fichiers</label>
+                <p class="file-info">Taille maximale par image : 10 MO</p>
+            </div>
+            <div id="preview-container" class="preview-container"></div>
+        </div>
+
+        <div class="controls">
+            <div class="quality-section">
+                <label for="quality">Qualité du GIF :</label>
+                <select id="quality">
+                    <option value="360p">360p</option>
+                    <option value="480p">480p</option>
+                    <option value="720p">720p</option>
+                    <option value="1080p" selected>1080p</option>
+                    <option value="1440p">1440p (2K)</option>
+                    <option value="2160p">2160p (4K)</option>
+                </select>
+            </div>
+            
+            <button id="preview" class="button">Prévisualiser le poids</button>
+            <button id="create-gif" class="button">Créer le GIF</button>
+        </div>
+
+        <p id="size-preview" class="size-preview"></p>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
